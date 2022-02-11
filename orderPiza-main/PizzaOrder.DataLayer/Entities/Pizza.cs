@@ -18,11 +18,9 @@ namespace PizzaOrder.DataLayer.Entities
 
         [Required]
         public decimal Price { get; set; }
-        // public int SizeId { get; set; }
 
         [Required]
         public int CookingTime { get; set; }
 
-        //public virtual ICollection<PizzaSize> Sizes { get; set; }
     }
 }
